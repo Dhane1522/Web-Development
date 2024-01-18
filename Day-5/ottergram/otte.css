@@ -1,4 +1,26 @@
 body{
-    background-color: powderblue;
-    font-family: Permanent+Marker,serif;
+    background-color: rgb(14, 173, 173);
+     padding-left:29%; 
+     padding-right:30%;
+     /* margin-left: 31%;
+     margin-right:31% */
+}
+h1{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Permanent Marker, cursive;
+}
+p{
+    font-family: Permanent Marker, sans-serif;
+    background-color: aliceblue;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.dhane{
+    color: bisque;
+}
+img{
+    width: 500px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }

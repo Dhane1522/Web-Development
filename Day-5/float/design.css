@@ -8,13 +8,13 @@ header div:nth-child(2){padding: 4%; background: green; width:42%; float: left;}
 .clear { clear: both;}
 
 nav{background: red}
-nav ul{margin: 5px; padding: 0;}
+nav ul{margin: 0px; padding: 0;}
 nav ul li{
-    list-style: none; float: left; margin: 0.5%; padding: 1%; background: yellow
-}
-
-nav ul li a{text-decoration: none; display: block; width: 100%;}
+    list-style: none; float: left; margin: 0.5%;  background: yellow; width:24%;
+       }
 nav ul li:hover {background: lightgreen;}
+nav ul li a{text-decoration: none; display: block; height: 100%; width: 100%; padding:1%}
+
 
 section{}
 section div:first-child{ background: blue; width: 34%; float: left;} 
