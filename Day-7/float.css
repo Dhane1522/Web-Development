@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+
+    background-color: rgb(226, 216, 238);
+}
+
+.header {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-color: rgba(208, 15, 179, 0.763);
+}
+
+.left-column {
+    background-color: rgb(54, 96, 132);
+    float: left;
+    height: 100px;
+    width: 50%;
+   
+}
+
+.right-column {
+    background-color: powderblue;
+    float: right;
+    height: 100px;
+    width: 5%;
+   
+}
+
+.footer {
+   clear:both;
+    background-color: aqua;
+}
