@@ -1,0 +1,42 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+.papa{
+
+    border: 2px solid rgb(92, 6, 232);
+
+}
+.container{
+    display: flex;
+}
+.header{
+    border: 2px solid rgb(92, 6, 232);
+    text-align: center;
+}
+.menu{  
+    border: 2px solid rgb(92, 6, 232);
+    text-align: center;
+    height:100px;
+    width:50%;
+}
+.main{  
+    border: 2px solid rgb(92, 6, 232);
+    text-align: center;
+    width: 25%;
+    height:75px;
+    
+}
+.right{  
+    border: 2px solid rgb(92, 6, 232);
+    text-align: center;
+    width: 25%;
+    height: 75px;
+}
+.footer{  
+    border: 2px solid rgb(92, 6, 232);
+    text-align: center;
+    
+}
+

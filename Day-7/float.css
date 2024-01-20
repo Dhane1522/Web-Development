@@ -14,7 +14,7 @@ body {
     background-color: rgb(54, 96, 132);
     float: left;
     height: 100px;
-    width: 50%;
+    width: 40%;
    
 }
 
@@ -27,6 +27,6 @@ body {
 }
 
 .footer {
-   clear:both;
+   clear:right;
     background-color: aqua;
 }

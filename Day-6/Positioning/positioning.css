@@ -3,17 +3,24 @@
     margin: 0%;
     padding: 0%;
 } */
-.parent{
+.parent {
     background-color: aqua;
-    padding:2%;
+    padding: 2%;
     height: 200vh;
+
+    position: relative;
 }
-.child-1{
+
+.child-1 {
     background-color: rgb(25, 205, 145);
+    position: sticky;
+    right: 0;
 }
-.child-2{
+
+.child-2 {
     background-color: rgb(21, 126, 212);
 }
-.child-3{
+
+.child-3 {
     background-color: rgb(231, 193, 22);
 }
