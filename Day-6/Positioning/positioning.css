@@ -1,0 +1,19 @@
+/* body{
+    background-color: blue;
+    margin: 0%;
+    padding: 0%;
+} */
+.parent{
+    background-color: aqua;
+    padding:2%;
+    height: 200vh;
+}
+.child-1{
+    background-color: rgb(25, 205, 145);
+}
+.child-2{
+    background-color: rgb(21, 126, 212);
+}
+.child-3{
+    background-color: rgb(231, 193, 22);
+}
