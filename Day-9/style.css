@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(144, 185, 238);
+    }
+}
+.menu{
+    overflow: hidden;
+    color: black;
+    
+}
+.menu a{
+   
+  
+    text-decoration: none;
+    padding: 3%;
+    color: rgb(109, 120, 235);
+    float: left;
+    
+    background-color: aqua;
+}
+
+
+.menu a:hover{
+    background-color: hsl(0, 4%, 33%);
+}
+@media screen  and (min-width:480px){
+    .menu{
+    float:none;
+    width: 100%;
+    display: block;
+    
+    }
+}
