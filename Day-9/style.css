@@ -3,11 +3,6 @@ body {
   margin: 0%;
 }
 
-@media screen and (min-width: 600px) {
-  body {
-    background-color: rgb(144, 185, 238);
-  }
-}
 
 .menu a {
   text-decoration: none;
@@ -22,14 +17,19 @@ body {
   color: rgb(83, 28, 210);
 }
 
-@media screen and (min-width: 480px) {
-  .menu {
-    float: none;
-    width: 100%;
-    display: block;
-  }
-}
+
 
 h2 {
   clear: left;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(144, 185, 238);
+    
+    }
+  
+  .menu {
+    float: none;
+    width: 100%;
+    display: block;}
 }

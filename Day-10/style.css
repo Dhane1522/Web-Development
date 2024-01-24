@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+.container{
+    height: 500px;
+    width: 700px;
+    background-color: skyblue;
+}
+
+.header{
+    height:75px;
+    background-color: aqua;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.left{
+    height:300px;
+    width:350px;
+    background-color: rgb(21, 65, 210);
+    text-align: center;
+}
+
+.right{
+    height:300px;
+    width:350px;
+    background-color: rgb(21, 85, 123);
+    text-align: center;
+}
+.footer{
+    height:75px;
+    background-color: rgb(5, 119, 119);
+    text-align: center;
+}
