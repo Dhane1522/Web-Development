@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box;
-    border: 0;
-    padding: 0;
+    /* box-sizing: border-box; */
+    /* border: 0;
+    padding: 0; */
 }
 .container{
     height: 500px;
@@ -10,7 +10,7 @@
 }
 
 .header{
-    height:75px;
+    height:100px;
     background-color: aqua;
     text-align: center;
 }
@@ -34,7 +34,7 @@
     text-align: center;
 }
 .footer{
-    height:75px;
+    height:100px;
     background-color: rgb(5, 119, 119);
     text-align: center;
 }

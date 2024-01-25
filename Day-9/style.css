@@ -7,7 +7,6 @@ body {
 .menu a {
   text-decoration: none;
   padding: 3%;
-
   float: left;
   background-color: aqua;
 }
@@ -22,13 +21,13 @@ body {
 h2 {
   clear: left;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     background-color: rgb(144, 185, 238);
     
     }
   
-  .menu {
+  .menu a{
     float: none;
     width: 100%;
     display: block;}
