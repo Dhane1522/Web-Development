@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(garden\ of\ dreams.jpg);
+}
+.rounded_corners {
+  height: 100px;
+  width: 100px;
+  background-color: #638;
+  margin-top: 50px;
+  border-radius: 10px 17px 20px;
+  padding: 2%;
+}
+
+.border_image {
+  width: 100px;
+  border-image-slice: 27 27 27 27;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat stretch;
+  border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-1.png");
+  border-style: solid;
+  padding: 2%;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #169374;
+}
